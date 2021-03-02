@@ -4,6 +4,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
     <meta charset="UTF-8">
     <title>Quiz</title>
+    <script>
+        console.log(document.getElementById("id").value)
+    </script>
 </head>
 <body style="background-color:#cfdddd;">
     <h3>Quiz</h3>
@@ -61,6 +64,7 @@
                 Qual e a probabilidade de voltar a Paris?
                 <input type="range" min="0" max="100"
                 name="taxa" value="0"
+                id="in"
                 oninput="taxaN.value = parseInt(taxa.value)">
                 <output name="taxaN" for="taxa">0</output> %
             </fieldset>
