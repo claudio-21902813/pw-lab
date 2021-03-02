@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <title>Quiz</title>
     <script>
-        console.log(document.getElementById("id").value)
+        if(document.getElementById("id").value > 50){
+            document.getElementById("textoEscondigo").innerHTML="Ainda bem que aproveitou as ferias!"
+        }else{
+            document.getElementById("textoEscondigo").innerHTML="Como assim??"
+        }
     </script>
 </head>
 <body style="background-color:#cfdddd;">
@@ -67,6 +71,7 @@
                 id="in"
                 oninput="taxaN.value = parseInt(taxa.value)">
                 <output name="taxaN" for="taxa">0</output> %
+                <h6 id="textoEscondigo"></h6>
             </fieldset>
         
     </fieldset>
