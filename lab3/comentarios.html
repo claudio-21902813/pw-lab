@@ -6,13 +6,26 @@
     <title>Comentarios</title>
 </head>
 <body style="background-color:#cfdddd;">
+    <h1>Paris</h1>
+        <img src="imagens/franca.jpg">
+        <br>
+        <a href="../index.html">Home |</a>
+        <a href="index.html">Introdução |</a>
+        <a href="local.html">Localização |</a>
+        <a href="multimedia.html">Multimedia |</a>
+        <a href="info.html">Informação |</a>
+        <a href="quizz.html">Quizz |</a>
+        <a href="comentarios.html">Comentarios</a>
+
+        
     <h3>Comentários</h3>
-    <form>
+    <form method="POST"
+    action="mailto:claudio@gmail.com">
         <fieldset>
             <legend>Comentarios</legend>
             <!--    Pergunta 1-->
             <label>
-                Acha Paris uma cidade bonita e estilosa?:Sim<input type="radio"> Nao <input type="radio">
+                Acha Paris uma cidade bonita e estilosa? Sim<input type="radio"> Nao <input type="radio">
             </label><br>
             <!--    Pergunta 2-->
             <label>
@@ -26,7 +39,59 @@
                 <input type="text" placeholder="Achei um maximo pq...">
             </label><br>
 
+            <!--    Pergunta 4-->
+            <label>
+                Como classifica a cultura de Paris?
+                <select name="cultura">
+                    <option value="op1">Fraco</option>
+                    <option value="op2">Suficiente</option>
+                    <option value="op3">Bom</option>
+                    <option value="op4">Excelente</option>
+                </select>
+            </label><br>
 
+            <!--    Pergunta 5-->
+            <label>
+                Como classifica o clima?
+                <input type="text">
+            </label><br>
+
+            <!--    Pergunta 6-->
+            <label>
+                Visitou a DisneyLand?
+                <input type="checkbox">
+            </label><br>
+
+            <!--    Pergunta 7-->
+            <label>
+                Como classifica o clima?
+                <input type="text">
+            </label><br>
+
+            <!--    Pergunta 8-->
+            <label>
+                Acha interessante a Gastronomia Françesa?
+                Sim<input type="radio"> Nao <input type="radio">
+            </label><br>
+
+            <!--    Pergunta 9-->
+            <label>
+                Com base no que achou da sua viagem, de 0 a 10 indique 
+                o seu nivel de satisfação?
+                <input type="range" maxlength="100">
+            </label><br>
+
+            <!--    Pergunta 10-->
+            <label>
+                <textarea rows="20" cols="20" placeholder="Sugestoes e melhorias a acrescentar...">
+                </textarea>
+            </label><br>
+
+            <!-- elemento hidden-->
+            <input type="hidden" id="id2" name="opiniao" value="o website precisa de Javascript mas esta otimo!">
+
+            <input type="submit" value="submeter">
+            <input type="reset" value="reset">
         </fieldset>
     </form>
 </body>
