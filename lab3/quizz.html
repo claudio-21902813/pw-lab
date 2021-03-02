@@ -42,7 +42,7 @@
     
                 Quando viajou<input type="date" required><br>
     
-                <textarea name="mensagem" size="30" placeholder="Escreva um comentario">
+                <textarea name="mensagem" size="30" rows="30" cols="20" placeholder="Escreva um comentario">
                 
                 </textarea><br>
     
@@ -64,14 +64,6 @@
                 id="in"
                 oninput="taxaN.value = parseInt(taxa.value)">
                 <output name="taxaN" for="taxa">0</output> %
-                <h6 id="textoEscondigo"></h6>
-                <script>
-                    if(document.getElementById("in").value > 50){
-                        document.getElementById("textoEscondigo").innerHTML="Ainda bem que aproveitou as ferias!"
-                    }else{
-                        document.getElementById("textoEscondigo").innerHTML="Como assim??"
-                    }
-                </script>
             </fieldset>
         
     </fieldset>
