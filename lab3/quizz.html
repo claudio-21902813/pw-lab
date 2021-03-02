@@ -7,7 +7,6 @@
 </head>
 <body style="background-color:#cfdddd;">
     <h3>Quiz</h3>
-    <h1>Insira os seus dados pessoais:</h1>
     <form>
     <fieldset>
         <legend>Dados Pessoais</legend>
@@ -31,7 +30,7 @@
             <label for="op2">Nao</label>
             <br>
 
-            As pessoas eram Simpaticas?<input type="checkbox"><br>
+            Visitou o museu do Louvre?<input type="checkbox"><br>
 
             <fieldset>
                 A companhia pelo qual viajou<select name="viagem">
@@ -42,7 +41,7 @@
     
                 Quando viajou<input type="date" required><br>
     
-                <textarea name="mensagem" rows="10" cols="30" placeholder="Escreva um comentario">
+                <textarea name="mensagem" size="30" placeholder="Escreva um comentario">
                 
                 </textarea><br>
     
@@ -57,8 +56,10 @@
                     <option value="Paris tem pessoas Simpaticas!">
                 </datalist><br>
     
-                de 0 a 10<input type="number" maxlength="10" step="2"><br>
-                <input type="range"><br>
+                de 0 a 10 qual a sua experiencia?<input type="number" maxlength="10" step="2"><br>
+                Qual e a probabilidade de voltar a Paris?<input type="range" 
+                name="prob" oninput="valor.value = parseInt(taxa.value)">
+                <output name="valor" for="prob">0</output> %<br>
             </fieldset>
         
     </fieldset>
