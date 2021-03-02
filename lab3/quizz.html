@@ -7,7 +7,8 @@
 </head>
 <body style="background-color:#cfdddd;">
     <h3>Quiz</h3>
-    <form>
+    <form method="post"
+    action="mailto:claudi@gmail.com">
     <fieldset>
         <legend>Dados Pessoais</legend>
         
@@ -50,16 +51,18 @@
                 Que cor referencia Paris na sua opiniao<input type="color"><br>
     
                Texto Magico... digite algo<input list="magic" name="paris-opps" required>
-                    <datalist id="paris-opps">
+                    <datalist id="magic">
                     <option value="Paris e cool">
                     <option value="Paris e uma cidade bonita">
                     <option value="Paris tem pessoas Simpaticas!">
                 </datalist><br>
     
                 de 0 a 10 qual a sua experiencia?<input type="number" maxlength="10" step="2"><br>
-                Qual e a probabilidade de voltar a Paris?<input type="range" 
-                name="prob" oninput="valor.value = parseInt(taxa.value)">
-                <output name="valor" for="prob">0</output> %<br>
+                Qual e a probabilidade de voltar a Paris?
+                <input type="range" min="0" max="100"
+                name="taxa" value="0"
+                oninput="taxaN.value = parseInt(taxa.value)">
+                <output name="taxaN" for="taxa">0</output> %
             </fieldset>
         
     </fieldset>
