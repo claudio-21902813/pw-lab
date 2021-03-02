@@ -8,9 +8,10 @@
 <body style="background-color:#cfdddd;">
     <h3>Quiz</h3>
     <h1>Insira os seus dados pessoais:</h1>
+    <form>
     <fieldset>
         <legend>Dados Pessoais</legend>
-        <form>
+        
             <label>
                 Nome : <input type="text" name="nome">
             </label><br>
@@ -20,43 +21,47 @@
             <label>
                 Email : <input type="text"  name="email">
             </label><br>
-        </form>
     </fieldset>
-    <h1>Quizz para quem visitou Paris</h1>
     <fieldset>
         <legend>Perguntas sobre a sua visita</legend>
-        <form>
            Descreva em 5 palavras o que achou: <input type="text" autofocus value="meta emojies"><br>
-            <input type="radio"><br>
-            <input type="checkbox"><br>
+            As pessoas eram Simpaticas?<input type="radio" value="op1">
+            <label for="op1">sim</label>
+            <input type="radio" value="op2">
+            <label for="op2">Nao</label>
+            <br>
 
-            <select name="car">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
-            </select><br>
+            As pessoas eram Simpaticas?<input type="checkbox"><br>
 
-            <input type="date"><br>
-
-            <textarea name="mensagem" rows="10" cols="30">
-                Pode-se inserir algum texto na caixa.
-            </textarea><br>
-
+            <fieldset>
+                A companhia pelo qual viajou<select name="viagem">
+                    <option value="Tap">Tap</option>
+                    <option value="Air France">Air France</option>
+                    <option value="Avianca">Avianca</option>
+                </select><br>
+    
+                Quando viajou<input type="date" required><br>
+    
+                <textarea name="mensagem" rows="10" cols="30" placeholder="Escreva um comentario">
                 
-            <input type="image"><br>
-            <input type="color"><br>
-
-            <input list="browsers" name="browser">
-                <datalist id="browsers">
-                <option value="Firefox">
-                <option value="Chrome">
-                <option value="Safari">
-            </datalist><br>
-
-            <input type="number"><br>
-            <input type="range"><br>
-        </form>
+                </textarea><br>
+    
+                    
+                Imagens da viagem<input type="image" multiple><br>
+                Que cor referencia Paris na sua opiniao<input type="color"><br>
+    
+               Texto Magico... digite algo<input list="magic" name="paris-opps" required>
+                    <datalist id="paris-opps">
+                    <option value="Paris e cool">
+                    <option value="Paris e uma cidade bonita">
+                    <option value="Paris tem pessoas Simpaticas!">
+                </datalist><br>
+    
+                de 0 a 10<input type="number" maxlength="10" step="2"><br>
+                <input type="range"><br>
+            </fieldset>
+        
     </fieldset>
+    </form>
 </body>
 </html>
