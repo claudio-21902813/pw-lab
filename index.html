@@ -7,18 +7,31 @@
     <style>
         body {
         font-family: "Audiowide", sans-serif;
-        width: 500px;
+        width: 700px;
         margin: auto;
         background-color:rgba(202, 219, 226, 0.829);
         }
-        ul {
+        #lista {
             list-style-type:disc;
+        }
+
+        a {
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        @keyframes example {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            100% {background-color: green;}
         }
     </style>
 </head>
 <body>
     <h1>Laboratórios Programação Web</h1>
-    <ul>
+    <hr>
+    <ul id="lista">
         <li> <a href="lab1/index.html">Laboratório 1: Conhecer a Internet com a minha primeira página Web</a></li>
         <li> <a href="lab2/index.html">Laboratório 2: Explorando o HTML com o meu primeiro website</a></li>
         <li> <a href="lab3/index.html">Laboratório 3: inclusão de formulários e imagens SVG no meu website</a></li>
