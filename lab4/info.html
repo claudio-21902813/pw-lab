@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <title>Info</title>
 </head>
-<body style="background-color:#cfdddd;">
-    <center>
+<body>
+    <header>
         <h1>Paris</h1>
-        <img src="imagens/franca.jpg">
-        <br>
+        <figure>
+            <img src="imagens/franca.jpg">
+            <figcaption>a vista de Paris e da sua famosa Torre</figcaption>
+            <details>
+                <summary>Torre Eiffel <b><a href="https://www.paris.fr/" target="_blank">[3]</a></b></summary>
+                <p>A Torre Eiffel é o símbolo de Paris e foi construída para a Exposição 
+                    Universal de 1889 e é um dos monumentos mais visitados do mundo.</p>
+              </details>
+          </figure>
+          <br>
+    </header>
+
+    <nav>
         <a href="quizz.html">Quizz |</a>
         <a href="comentarios.html">Comentarios |</a>
         <a href="../index.html">Home |</a>
@@ -17,121 +28,163 @@
         <a href="local.html">Localização |</a>
         <a href="multimedia.html">Multimedia |</a>
         <a href="info.html">Informação</a>
+    </nav>
 
     <hr>
 
-        <h1>Informação</h1>
-        <table border="1" cellspacing="2" cellpadding="6%" bgcolor="#cfddfd" align="center">
-            <caption>Informacao sobre paris[1]</caption>
-            <!-- Colgroup-->
-            <colgroup>
-                <col align="center" width="25%" span="3">
-                <col valign="center" span="1">
-            </colgroup>
-            <!-- demografia -->
-            <tr>
-                <td rowspan="2"> <b>Demografia[1]</b></td>
-                <td>Populacao[1]</td>
-                <td>2 148 271 hab</td>
-            </tr>
-            <tr>
-                <td>densidade populacional[1]</td>
-                <td>21 067 hab/km<sup>2</sup></td>
-            </tr>
+    <main>
+        <section>
+            <h1>Informação</h1>
+            <table border="1" cellspacing="2" cellpadding="6%" bgcolor="#cfddfd" align="center">
+                <caption>Informacao sobre paris[1]</caption>
+                <!-- Colgroup-->
+                <colgroup>
+                    <col align="center" width="25%" span="3">
+                    <col valign="center" span="1">
+                </colgroup>
+                <!-- demografia -->
+                <tr>
+                    <thead> <td rowspan="2"> <b>Demografia[1]</b></td></thead>
+                    <tbody>
+                     <td>Populacao[1]</td>
+                    <td>2 148 271 hab</td>   
+                    </tbody>
+                    
+                </tr>
+                <tr>
+                    <tbody>
+                    <td>densidade populacional[1]</td>
+                    <td>21 067 hab/km<sup>2</sup></td> 
+                    </tbody>
+                   
+                </tr>
+    
+                <!-- geografia -->
+                <tr>
+                   <thead><td rowspan="3"><b>Geografia</b></td></thead> 
+                   <tbody>
+                       <td>Area[1]</td>
+                    <td>105,40 km<sup>2</sup> </td>    
+                   </tbody>
+                
+                </tr>
+    
+                <tr>
+                    <tbody>
+                        <td>Regiao[1]</td>
+                    <td>Paris</td> 
+                    </tbody>
+                   
+                </tr>
+    
+                <tr>
+                    <tbody>
+                         <td>Pais[1]</td>
+                    <td>França</td>
+                    </tbody>
+                   
+                </tr>
+                
+                <tr>
+                   <thead><td><b>Website[2]</b></td></thead>
+                   <tbody>
+                       <td colspan="2" align="center"> <a href="https://www.paris.fr" target="_blank"> visite o site oficial!</a></td>
+                   </tbody>
+                    
+                </tr>
+    
+                <!-- Historia-->
+                <tr>
+                    <thead><td rowspan="2"> <b>Historia</b></td></thead>
+                    <tbody>
+                        <td>Bandeira[3]</td>
+                    <td><img src="imagens/bandeira.jpg" alt="bandeira"></td>
+                    </tbody>
+                    
+                </tr>
+                <tr>
+                    <tbody>
+                     <td>lema</td>
+                    <td><i>"É sacudida pelas ondas, mas não afunda"</i></td>   
+                    </tbody>
+                </tr>
+                <tr>
+                    <tfoot>
+                        <td>algo</td>
+                        <td>algo</td>
+                    </tfoot>
+                </tr>
+              </table>
+              <b><a target="_blank" href="https://pt.wikipedia.org/wiki/Paris">[1] </a></b>
+              <b><a target="_blank" href="https://www.paris.fr/"> [2]</a></b>
+              <b><a target="_blank" href="https://pt.wikipedia.org/wiki/Bandeira_da_Fran%C3%A7a"> [3]</a></b>
 
-            <!-- geografia -->
-            <tr>
-                <td rowspan="3"><b>Geografia</b></td>
-                <td>Area[1]</td>
-                <td>105,40 km<sup>2</sup> </td>
-            </tr>
+        </section>
 
-            <tr>
-                <td>Regiao[1]</td>
-                <td>Paris</td>
-            </tr>
-
-            <tr>
-                <td>Pais[1]</td>
-                <td>França</td>
-            </tr>
-            
-            <tr>
-                <td><b>Website[2]</b></td>
-                <td colspan="2" align="center"> <a href="https://www.paris.fr" target="_blank"> visite o site oficial!</a></td>
-            </tr>
-
-            <!-- Historia-->
-            <tr>
-                <td rowspan="2"> <b>Historia</b></td>
-                <td>Bandeira[3]</td>
-                <td><img src="imagens/bandeira.jpg" alt="bandeira"></td>
-            </tr>
-            <tr>
-                <td>lema</td>
-                <td><i>"É sacudida pelas ondas, mas não afunda"</i></td>
-            </tr>
-          </table>
-          <b><a target="_blank" href="https://pt.wikipedia.org/wiki/Paris">[1] </a></b>
-          <b><a target="_blank" href="https://www.paris.fr/"> [2]</a></b>
-          <b><a target="_blank" href="https://pt.wikipedia.org/wiki/Bandeira_da_Fran%C3%A7a"> [3]</a></b>
-          <br>
-        <hr>
-        <!-- Menu estiloso e com animações-->
+        <section>
+                  <!-- Menu estiloso e com animações-->
         <svg width="600" height="289">
-          <g transform="translate(100,100)"> 
-              <a href="index.html">
-                  <text id="TextElement" x="0" y="0" style="font-family:Impact;font-size:24; visibility:hidden"> Introducao
-                      <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-                      <animateMotion path="M 4 0 L 100 89" begin="1s" dur="5s" fill="freeze" />
-                      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
-                      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="2s" dur="5s" fill="freeze" /> 
-                    </text> 
+            <g transform="translate(100,100)"> 
+                <a href="index.html">
+                    <text id="TextElement" x="0" y="0" style="font-family:Impact;font-size:24; visibility:hidden"> Introducao
+                        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                        <animateMotion path="M 4 0 L 100 89" begin="1s" dur="5s" fill="freeze" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="2s" dur="5s" fill="freeze" /> 
+                      </text> 
+                </a>
+              
+                <a href="local.html">
+               <text id="TextElement" x="0" y="2" style="font-family:Impact;font-size:14; visibility:hidden"> Localizacao
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+              </text> 
               </a>
-            
-              <a href="local.html">
-             <text id="TextElement" x="0" y="2" style="font-family:Impact;font-size:14; visibility:hidden"> Localizacao
-              <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-              <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
-            </text> 
+              
+              <a href="multimedia.html">
+                   <text id="TextElement2" x="100" y="2" style="font-family:Impact;font-size:14; visibility:hidden"> Multimedia
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                </text> 
             </a>
-            
-            <a href="multimedia.html">
-                 <text id="TextElement2" x="100" y="2" style="font-family:Impact;font-size:14; visibility:hidden"> Multimedia
-              <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-              <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
-              </text> 
-          </a>
-              
-          <a href="info.html">
-               <text id="TextElement3" x="200" y="2" style="font-family:Verdana;font-size:14; visibility:hidden"> Informacao
-              <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-              <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="3s" dur="5s" fill="freeze" /> 
-              </text> 
-          </a>
-              
-          <a href="comentarios.html">
-                 <text id="TextElement3" x="200" y="-70" style="font-family:Courier New-B;font-size:14; visibility:hidden"> Comentarios
-              <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-              <animateMotion path="M 10 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
-              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="2s" fill="freeze" /> 
-              </text> 
-          </a>
+                
+            <a href="info.html">
+                 <text id="TextElement3" x="200" y="2" style="font-family:Verdana;font-size:14; visibility:hidden"> Informacao
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="3s" dur="5s" fill="freeze" /> 
+                </text> 
+            </a>
+                
+            <a href="comentarios.html">
+                   <text id="TextElement3" x="200" y="-70" style="font-family:Courier New-B;font-size:14; visibility:hidden"> Comentarios
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 10 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="2s" fill="freeze" /> 
+                </text> 
+            </a>
+  
+            <a href="quizz.html">
+                   <text id="TextElement3" x="150" y="-70" style="font-family:Courier New;font-size:14; visibility:hidden"> QUIZZ
+                <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                <animateMotion path="M 10 0 L 50 100" begin="1s" dur="4s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                </text> 
+            </a>
+                
+            </g> 
+          </svg>
+      
+        </section>
+        <br>
+        <hr>
+    </main>
+    
+    <footer>
+        <p><n>Claudio Caetano, LEI, a21902813, 2º ano</n></p>
+    </footer>
 
-          <a href="quizz.html">
-                 <text id="TextElement3" x="150" y="-70" style="font-family:Courier New;font-size:14; visibility:hidden"> QUIZZ
-              <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
-              <animateMotion path="M 10 0 L 50 100" begin="1s" dur="4s" fill="freeze" />
-              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
-              </text> 
-          </a>
-              
-          </g> 
-        </svg>
-        
-    </center>
 </body>
 </html>

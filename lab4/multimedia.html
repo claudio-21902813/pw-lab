@@ -5,120 +5,143 @@
     <meta charset="UTF-8">
     <title>multimedia</title>
 </head>
-<body style="background-color:#cfdddd;">
-    <center>
+<body>
+    <header>
       <h1>Paris</h1>
-      <img src="imagens/franca.jpg">
-      <br>
+      <figure>
+          <img src="imagens/franca.jpg">
+          <figcaption>a vista de Paris e da sua famosa Torre</figcaption>
+          <details>
+              <summary>Torre Eiffel <b><a href="https://www.paris.fr/" target="_blank">[3]</a></b></summary>
+              <p>A Torre Eiffel é o símbolo de Paris e foi construída para a Exposição 
+                  Universal de 1889 e é um dos monumentos mais visitados do mundo.</p>
+            </details>
+        </figure>
+        <br>
+  </header>
+
+  <nav>
       <a href="quizz.html">Quizz |</a>
       <a href="comentarios.html">Comentarios |</a>
       <a href="../index.html">Home |</a>
       <a href="index.html">Introdução |</a>
       <a href="local.html">Localização |</a>
       <a href="multimedia.html">Multimedia |</a>
-      <a href="info.html">Informação </a>
+      <a href="info.html">Informação</a>
+  </nav>
 
     <hr>
 
-    <h3>Multimédia</h3>
-      <figure>
-        <a href="imagens/imagem1_grande.jpg" target="fotos"><img src="imagens/imagem1_pequeno.jpg" alt="foto de Paris"></a>
-        <figcaption>Vista da Torre Eiffel e da cidade de Paris</figcaption>
-      </figure>
-
-      <figure>
-        <a href="imagens/imagem2_grande.jpg" target="fotos"><img src="imagens/imagem2_pequeno.jpg" alt="foto do museu"></a>
-        <figcaption>Monumento do museu do Lovre</figcaption>
-      </figure>
-      <br>
-      <iframe src="imagens/imagem1_grande.jpg" name="fotos" width="800px" height="340px" title="Fotos"></iframe>
-      <br><hr>
-
-      <p>Video de Paris:</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UfEiKK-iX70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <hr>
-      <h1>Poema de Paul Verlaine</h1>
-      <h3>Meu sonho familiar</h3>
-      <p>
-          <i>
-              <code>
-            Muitas vezes, o sonho estranho me surpreende<br>
-            de uma ignota mulher que eu amo e que me adora,<br>
-            e que a mesma não é, certamente, a toda hora,<br>
-            não sendo outra, porém, e me ama e me compreende.<br>
-            <br>
-            Todo o meu coração deixo que ela o desvende.<br>
-            Ela somente o faz transparente e o avigora,<br>
-            E se eu sofro, se a dor minha fronte descora,<br>
-            ela é o consolo ideal que sobre mim se estende.<br>
-            <br>
-            É ela trigueira, ou loira, ou ruiva? – Eu o ignoro.<br>
-            Seu nome? Apenas sei que ele é doce e sonoro<br>
-            como o de quem se amou e da vida fugiu.<br>
-            <br>
-            Seu olhar, como o olhar de uma estátua, é sem alma,<br>
-            e tem na sua voz, grave, longínqua e calma,<br>
-            a inflexão de uma voz cara que se extingiu.<br>
-            </code>
-          </i>
-          <b><a target="_blank" href="https://www.pensador.com/frase/MTgyNjEwOA/">[1]</a></b>
-      </p>
-      <br>
-      <hr>
-      <svg height="400" width="450">
-        <text x="10" y="15" style="font-family:Impact">O que desenhei??
-              <animateMotion path="L L 0 q 50 50" begin="1s" dur="3s" fill="freeze" />
-              <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-2" to="0" begin="1s" dur="5s" fill="freeze" /> 
-              <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
-        </text>
-        <path id="lineAB" d="M 100 350 l 150 -300" stroke="red" stroke-width="3" fill="none">
-         <animateTransform attributeName="transform"
-                                  attributeType="XML"
-                                  type="rotate"
-                                  from="0 5 5"
-                                  to="10 5 5"
-                                  dur="3s"
-                                  repeatCount="indefinite"/>
-        </path>
-          <path id="lineBC" d="M 250 50 l 150 300" stroke="red" stroke-width="3" fill="none">
-           <animateTransform attributeName="transform"
-                                  attributeType="XML"
-                                  type="rotate"
-                                  from="0 24 5"
-                                  to="100 24 25"
-                                  dur="5s"
-                                  repeatCount="indefinite"/>
-          </path>
-          <path d="M 175 200 l 152 0" stroke="green" stroke-width="3" fill="none">
-           <animateTransform attributeName="transform"
-                                  attributeType="XML"
-                                  type="rotate"
-                                  from="0 51 5"
-                                  to="10 51 52"
-                                  dur="3s"
-                                  repeatCount="indefinite"/>
-          </path>
-           <path d="M 142 267 l 216 0" stroke="green" stroke-width="3" fill="none">
-            <animateTransform attributeName="transform"
-                                  attributeType="XML"
-                                  type="rotate"
-                                  from="0 5 5"
-                                  to="90 12 52"
-                                  dur="3s"
-                                  repeatCount="indefinite"/>
-           </path>
-           <path d="M 100 350 q 150 -159 300 0" stroke="blue" stroke-width="5" fill="none">
-            <animateTransform attributeName="transform"
-                                  attributeType="XML"
-                                  type="rotate"
-                                  from="0 5 5"
-                                  to="-10 12 5"
-                                  dur="3s"
-                                  repeatCount="indefinite"/>
-           </path>
-        </svg>
-        <hr>
+    <main>
+      <section>
+        <h3>Multimédia</h3>
+        <figure>
+          <a href="imagens/imagem1_grande.jpg" target="fotos"><img src="imagens/imagem1_pequeno.jpg" alt="foto de Paris"></a>
+          <figcaption>Vista da Torre Eiffel e da cidade de Paris</figcaption>
+        </figure>
+  
+        <figure>
+          <a href="imagens/imagem2_grande.jpg" target="fotos"><img src="imagens/imagem2_pequeno.jpg" alt="foto do museu"></a>
+          <figcaption>Monumento do museu do Lovre</figcaption>
+        </figure>
         <br>
+        <iframe src="imagens/imagem1_grande.jpg" name="fotos" width="800px" height="340px" title="Fotos"></iframe>
+        <br><hr>
+  
+        <p>Video de Paris:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UfEiKK-iX70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+      </section>
+
+      <section>
+        <h1>Poema de Paul Verlaine</h1>
+        <h3>Meu sonho familiar</h3>
+        <p>
+            <i>
+                <code>
+              Muitas vezes, o sonho estranho me surpreende<br>
+              de uma ignota mulher que eu amo e que me adora,<br>
+              e que a mesma não é, certamente, a toda hora,<br>
+              não sendo outra, porém, e me ama e me compreende.<br>
+              <br>
+              Todo o meu coração deixo que ela o desvende.<br>
+              Ela somente o faz transparente e o avigora,<br>
+              E se eu sofro, se a dor minha fronte descora,<br>
+              ela é o consolo ideal que sobre mim se estende.<br>
+              <br>
+              É ela trigueira, ou loira, ou ruiva? – Eu o ignoro.<br>
+              Seu nome? Apenas sei que ele é doce e sonoro<br>
+              como o de quem se amou e da vida fugiu.<br>
+              <br>
+              Seu olhar, como o olhar de uma estátua, é sem alma,<br>
+              e tem na sua voz, grave, longínqua e calma,<br>
+              a inflexão de uma voz cara que se extingiu.<br>
+              </code>
+            </i>
+            <b><a target="_blank" href="https://www.pensador.com/frase/MTgyNjEwOA/">[1]</a></b>
+        </p>
+        <br>
+        <hr>
+      </section>
+
+      <section>
+        <svg height="400" width="450">
+          <text x="10" y="15" style="font-family:Impact">O que desenhei??
+                <animateMotion path="L L 0 q 50 50" begin="1s" dur="3s" fill="freeze" />
+                <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-2" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+          </text>
+          <path id="lineAB" d="M 100 350 l 150 -300" stroke="red" stroke-width="3" fill="none">
+           <animateTransform attributeName="transform"
+                                    attributeType="XML"
+                                    type="rotate"
+                                    from="0 5 5"
+                                    to="10 5 5"
+                                    dur="3s"
+                                    repeatCount="indefinite"/>
+          </path>
+            <path id="lineBC" d="M 250 50 l 150 300" stroke="red" stroke-width="3" fill="none">
+             <animateTransform attributeName="transform"
+                                    attributeType="XML"
+                                    type="rotate"
+                                    from="0 24 5"
+                                    to="100 24 25"
+                                    dur="5s"
+                                    repeatCount="indefinite"/>
+            </path>
+            <path d="M 175 200 l 152 0" stroke="green" stroke-width="3" fill="none">
+             <animateTransform attributeName="transform"
+                                    attributeType="XML"
+                                    type="rotate"
+                                    from="0 51 5"
+                                    to="10 51 52"
+                                    dur="3s"
+                                    repeatCount="indefinite"/>
+            </path>
+             <path d="M 142 267 l 216 0" stroke="green" stroke-width="3" fill="none">
+              <animateTransform attributeName="transform"
+                                    attributeType="XML"
+                                    type="rotate"
+                                    from="0 5 5"
+                                    to="90 12 52"
+                                    dur="3s"
+                                    repeatCount="indefinite"/>
+             </path>
+             <path d="M 100 350 q 150 -159 300 0" stroke="blue" stroke-width="5" fill="none">
+              <animateTransform attributeName="transform"
+                                    attributeType="XML"
+                                    type="rotate"
+                                    from="0 5 5"
+                                    to="-10 12 5"
+                                    dur="3s"
+                                    repeatCount="indefinite"/>
+             </path>
+          </svg>
+          <hr>
+          <br>
+      </section>
+
+      <section>
         <figure>
           <img src="imagens/louvre.svg" alt="Louvre Museu" style="width:55%">
           <figcaption>Museu do Louvre desenhado por mim em SVG</figcaption>
@@ -177,6 +200,10 @@
                       
                   </g> 
                 </svg>
-    </center>
+      </section>
+    </main>
+    <footer>
+      <p><n>Claudio Caetano, LEI, a21902813, 2º ano</n></p>
+  </footer>
 </body>
 </html>
