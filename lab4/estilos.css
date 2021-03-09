@@ -86,9 +86,22 @@ tr:nth-child(odd) {
 }
 
 [alt^="foto"] {
-    border: 5px solid #555;
+    border: 5px solid rgb(122, 53, 53);
 }
 
 [alt$="Fotos"] {
-    border: 5px solid #555;
+    border: 5px solid rgb(80, 136, 105);
+}
+
+[name*="awesome"] {
+    border: 5px solid rgb(122, 21, 122);
+}
+
+#descricao::first-letter {
+    color: royalblue;
+    font-size: 24px;
+}
+
+#descricao::first-line {
+    color: wheat;
 }
