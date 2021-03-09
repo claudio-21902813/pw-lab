@@ -28,14 +28,21 @@ a:link {
     color: rgb(47, 104, 59);
   }
 
-  a:visited {
+a:visited {
     color: rgb(28, 0, 128);
   }
   
-  a:hover {
+a:hover {
     color: rgb(240, 255, 105);
   }
   
-  a:active {
+a:active {
     color: rgb(167, 167, 204);
+  }
+
+  p::before {
+      content: "&#128512";
+  }
+  p::after {
+      content: "Visite Paris na frança";
   }
