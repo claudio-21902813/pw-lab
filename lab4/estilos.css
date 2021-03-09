@@ -107,5 +107,6 @@ tr:nth-child(odd) {
 }
 
 .break {
+    visibility:hidden;
     display: block;
 }
