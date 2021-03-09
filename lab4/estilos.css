@@ -1,4 +1,4 @@
-main > h1, img {
+body main {
     background-color: red;
     margin: auto;
     width: 500px;
