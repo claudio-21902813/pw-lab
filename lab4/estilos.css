@@ -51,8 +51,9 @@ a:active {
   h1::before {
       content: " \01F525";
   }
-  p::after {
-      content: "  Visite Paris na frança";
+
+  #menuop1::after{
+      content: "QUIZZ";
   }
 
   #poema::before {
@@ -66,7 +67,7 @@ a:active {
   }
 
   #descricao::selection {
-    color: rgb(195, 239, 245);
+    color: rgb(24, 36, 37);
   }
 
 
