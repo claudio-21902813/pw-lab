@@ -7,10 +7,27 @@ body header {
 
 header ~ main {
     margin: auto;
-    background-color: saddlebrown;
+    background-color: #cfdddd;
 }
 
 main + footer {
     font-size: 34px;
-    background-color: seagreen;
+    background-color: #cfdddd;
 }
+
+
+a:link {
+    color: rgb(47, 104, 59);
+  }
+
+  a:visited {
+    color: rgb(28, 0, 128);
+  }
+  
+  a:hover {
+    color: rgb(240, 255, 105);
+  }
+  
+  a:active {
+    color: rgb(167, 167, 204);
+  }
