@@ -98,6 +98,12 @@ tr:nth-child(odd) {
     border: 5px solid rgb(122, 21, 122);
 }
 
+iframe {
+    color: #000;
+    border: 5px solid rgb(161, 61, 58);
+}
+
+
 #descricao::first-letter {
     color: rgb(46, 91, 224);
     font-size: 24px;
