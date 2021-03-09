@@ -73,3 +73,14 @@ a:active {
       font-size: 24px;
   }
 
+
+tr:nth-child(even) {
+    background-color: rgb(28, 28, 241);
+}
+tr:nth-child(odd) {
+    background-color: rgb(16, 235, 4);
+}
+
+[src="imagens/franca.jpg"] {
+    border: 5px solid #555;
+}
