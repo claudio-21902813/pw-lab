@@ -5,6 +5,7 @@ body header {
     text-align: center;
 }
 
+
 header ~ main {
     margin: auto;
     background-color: #cfdddd;
