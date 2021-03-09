@@ -84,3 +84,11 @@ tr:nth-child(odd) {
 [src="imagens/franca.jpg"] {
     border: 5px solid #555;
 }
+
+[alt^="foto"] {
+    border: 5px solid #555;
+}
+
+[alt$="Fotos"] {
+    border: 5px solid #555;
+}
