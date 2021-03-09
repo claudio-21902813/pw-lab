@@ -47,6 +47,22 @@ a:active {
       content: "  Visite Paris na frança";
   }
 
-  #poema {
-      background-color: red;
+  #poema::before {
+    content: "Poema de Paul Verlaine";
+    color: red;
+}
+
+  #poema::after {
+      content: "    Escrito por --autor--";
+      color: blue;
   }
+
+  ::selection {
+    color: rgb(195, 239, 245);
+  }
+
+
+  #poema::first-letter {
+      font-size: 24px;
+  }
+
