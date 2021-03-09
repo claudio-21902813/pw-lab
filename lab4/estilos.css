@@ -40,8 +40,8 @@ a:active {
     color: rgb(167, 167, 204);
   }
 
-  p::before {
-      content: "        ";
+  h1::before {
+      content: " \01F525";
   }
   p::after {
       content: "  Visite Paris na frança";
