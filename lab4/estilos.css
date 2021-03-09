@@ -65,7 +65,7 @@ a:active {
       color: blue;
   }
 
-  ::selection {
+  #descricao::selection {
     color: rgb(195, 239, 245);
   }
 
