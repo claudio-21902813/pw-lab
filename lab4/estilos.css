@@ -1,7 +1,8 @@
 body header {
-    background-color: red;
+    background-color: rgb(235, 221, 221);
     margin: auto;
     width: 800px;
+    text-align: center;
 }
 
 header ~ main {
