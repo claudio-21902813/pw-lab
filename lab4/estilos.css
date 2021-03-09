@@ -53,8 +53,28 @@ a:active {
   }
 
   #menuop1::after{
-      content: "QUIZZ";
+      content: "Quizz |";
   }
+
+  #menuop2::after{
+      content: "Comentarios |";
+  }
+
+  #menuop3::after{
+    content: "Home |";
+}
+#menuop4::after{
+    content: "Introdução|";
+}
+#menuop5::after{
+    content: "Localização|";
+}
+#menuop6::after{
+    content: "Multimedia|";
+}
+#menuop7::after{
+    content: "Informação|";
+}
 
   #poema::before {
     content: "Poema de Paul Verlaine";
