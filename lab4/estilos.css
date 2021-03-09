@@ -41,8 +41,8 @@ a:active {
   }
 
   p::before {
-      content: "&#128512";
+      content: "        ";
   }
   p::after {
-      content: "Visite Paris na frança";
+      content: "  Visite Paris na frança";
   }
