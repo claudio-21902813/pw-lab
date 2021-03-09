@@ -49,6 +49,7 @@
   <main>
     <section>
       <h3>Quiz</h3>
+         <!-- form sem a tag BR-->
       <form method="post"
       action="mailto:claudi@gmail.com" enctype="text/plain">
       <fieldset>
@@ -71,7 +72,8 @@
               </form>
             </table>
          
-              <br>
+            <input type="text" class="break">
+            <input type="text" class="break">
       </fieldset>
 
       <fieldset>
@@ -82,34 +84,56 @@
             <label for="op1">sim</label>
             <input type="radio" value="op2" name="op">
             <label for="op2">Nao</label>
-            <br><br>
+            <input type="text" class="break">
+            <input type="text" class="break">
 
-            Visitou o museu do Louvre?<input type="checkbox"><br><br>
+            Visitou o museu do Louvre?<input type="checkbox">
+            <input type="text" class="break">
+            <input type="text" class="break">
 
                 A companhia pelo qual viajou<select name="viagem">
                     <option value="Tap">Tap</option>
                     <option value="Air France">Air France</option>
                     <option value="Avianca">Avianca</option>
-                </select><br><br>
-    
-                Quando viajou<input type="date" required><br><br>
+                </select>
+                <input type="text" class="break">
+                <input type="text" class="break">
+
+                Quando viajou<input type="date" required>
+                <input type="text" class="break">
+                <input type="text" class="break">
     
                 <label>
                     <textarea id="story" name="story" rows="5" cols="52" placeholder="Escreva algum comentario..."></textarea>
-                </label><br><br>
+                </label>     ~
+                <input type="text" class="break">
+                <input type="text" class="break">
     
                     
-                Imagens da viagem<input type="image" multiple><br><br>
-                Que cor referencia Paris na sua opiniao<input type="color"><br><br>
+                Imagens da viagem<input type="image" multiple>
+                <input type="text" class="break">
+                <input type="text" class="break">
+
+
+                Que cor referencia Paris na sua opiniao<input type="color">
+                <input type="text" class="break">
+                <input type="text" class="break">
+
     
                Texto Magico... digite algo<input list="magic" name="paris-opps" required>
                     <datalist id="magic">
                     <option value="Paris e cool">
                     <option value="Paris e uma cidade bonita">
                     <option value="Paris tem pessoas Simpaticas!">
-                </datalist><br><br>
+                </datalist>
+                <input type="text" class="break">
+                <input type="text" class="break">
     
-                de 0 a 10 qual a sua experiencia?<input type="number" maxlength="10" step="2"><br><br>
+                de 0 a 10 qual a sua experiencia?<input type="number" maxlength="10" step="2">
+                <input type="text" class="break">
+                <input type="text" class="break">
+
+                
                 Qual e a probabilidade de voltar a Paris?
                 <input type="range" min="0" max="100"
                 name="taxa" value="0"
