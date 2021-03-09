@@ -1,5 +1,15 @@
-body main {
+body header {
     background-color: red;
     margin: auto;
-    width: 500px;
+    width: 800px;
+}
+
+header ~ main {
+    margin: auto;
+    background-color: saddlebrown;
+}
+
+main + footer {
+    font-size: 34px;
+    background-color: seagreen;
 }
