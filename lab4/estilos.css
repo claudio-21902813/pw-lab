@@ -109,6 +109,3 @@ tr:nth-child(odd) {
 .break {
     display: block;
 }
-[class*="break"] {
-    display: none;
-}
