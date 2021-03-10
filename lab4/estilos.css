@@ -181,4 +181,6 @@ img.relativo {
     position: sticky;
     top: 0;
     padding: 5px;
+    width: 100px;
+    height: 50px;
   }
