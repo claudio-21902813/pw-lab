@@ -139,14 +139,14 @@ iframe {
     display: block;
 }
 
-div.relativo {
+img.relativo {
     position: relative;
     width: 400px;
     height: 200px;
     border: 3px solid #73AD21;
   } 
   
-  div.absoluto {
+  img.absoluto {
     position: absolute;
     top: 80px;
     right: 0;
