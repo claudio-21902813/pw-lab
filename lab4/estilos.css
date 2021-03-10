@@ -176,11 +176,11 @@ img.relativo {
     color: red;
   }
 
-  .sticky {
+  figure.sticky {
     position: -webkit-sticky;
     position: sticky;
-    border: 2px solid red;
-    padding: 2px;
-    width: 100px;
-    height: 50px;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
   }
