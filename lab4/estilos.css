@@ -177,6 +177,7 @@ img.relativo {
   }
 
   .sticky {
+    position: -webkit-sticky;
     position: sticky;
     border: 2px solid red;
     width: 100px;
