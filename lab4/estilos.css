@@ -154,3 +154,12 @@ img.relativo {
     height: 100px;
     border: 2px solid #1c1b5c;
   }
+
+  figcaption.texto_relativo {
+    position: absolute;
+    top: 1800px;
+    right: 610px;
+    width: 200px;
+    height: 100px;
+    color: red;
+  }
