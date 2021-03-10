@@ -4,6 +4,10 @@
     font-size: 15px;
 }
 
+h1 {
+    font-size: 18px;
+}
+
 body header {
     background-color: rgb(235, 221, 221);
     margin: auto;
