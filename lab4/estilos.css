@@ -54,30 +54,31 @@ a:active {
   }
 
   #menuop1::after{
-      content: "Quizz |";
+      content: " Quizz |";
+      font-size: 12px;
   }
 
   #menuop2::after{
-      content: "Comentarios |";
+      content: " Comentarios |";
   }
 
   #menuop3::after{
-    content: "Home |";
+    content: " Home |";
 }
 #menuop4::after{
-    content: "Introdução |";
+    content: " Introdução |";
 }
 #menuop5::after{
-    content: "Localização |";
+    content: " Localização |";
 }
 #menuop6::after{
-    content: "Multimedia |";
+    content: " Multimedia |";
 }
 #menuop7::after{
-    content: "Informação |";
+    content: " Informação ";
 }
 #menuop8::after{
-    content: "pagina C/ Estilo |";
+    content: " pagina C/ Estilo |";
 }
 
   #poema::before {
