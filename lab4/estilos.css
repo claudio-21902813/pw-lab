@@ -65,16 +65,19 @@ a:active {
     content: "Home |";
 }
 #menuop4::after{
-    content: "Introdução|";
+    content: "Introdução |";
 }
 #menuop5::after{
-    content: "Localização|";
+    content: "Localização |";
 }
 #menuop6::after{
-    content: "Multimedia|";
+    content: "Multimedia |";
 }
 #menuop7::after{
-    content: "Informação|";
+    content: "Informação |";
+}
+#menuop8::after{
+    content: "pagina C/ Estilo |";
 }
 
   #poema::before {
