@@ -17,8 +17,7 @@ body header {
 body nav {
   margin: auto;
   width: 800px;
-  padding: 12px;
-  background-color: rgb(255, 0, 0);
+  font-size: 14px;
 }
 
 header ~ main {
