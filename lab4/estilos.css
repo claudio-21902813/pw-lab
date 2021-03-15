@@ -9,9 +9,9 @@ h1 {
 }
 
 body header {
-  background-color: rgb(235, 221, 221);
+  background-color: rgb(255, 0, 0 / 50%);
   margin: auto;
-  width: 800px;
+  /*width: 800px;*/
   text-align: center;
 }
 
