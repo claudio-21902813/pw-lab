@@ -17,10 +17,8 @@ body header {
 body nav {
   margin: auto;
   width: 800px;
-  padding: 0;
-  overflow: hidden;
+  padding: 12px;
   background-color: rgb(255, 0, 0);
-  display: inline;
 }
 
 header ~ main {
