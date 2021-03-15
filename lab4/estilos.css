@@ -17,21 +17,18 @@ body header {
 
 body nav {
   margin: auto;
-  background-color: #5cdd3b;
   margin: auto;
   width: 800px;
 }
 
 header ~ main {
   margin: auto;
-  background-color: #4bd33a;
   margin: auto;
   width: 800px;
 }
 
 main + footer {
   font-size: 34px;
-  background-color: #cfdddd;
   margin: auto;
   width: 800px;
 }
