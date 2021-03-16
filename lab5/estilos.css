@@ -17,12 +17,11 @@ header {
 nav {
   grid-area: menu;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 15%;
 }
 
 nav ul {
+  flex-direction: row;
+  justify-content: space-evenly;
   list-style-type: none;
   margin: 0;
   padding: 0;
