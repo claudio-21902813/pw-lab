@@ -20,6 +20,12 @@ nav {
   background-color: rgba(156, 206, 179, 0.418);
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: stretch;
+}
+
+nav a {
+  padding: 10px 10px;
+  color: #000;
 }
 
 /*
