@@ -26,6 +26,8 @@ nav {
 nav a {
   padding: 10px 10px;
   color: #000;
+  text-align: center;
+  border-bottom: 1px solid #555;
 }
 
 /*
