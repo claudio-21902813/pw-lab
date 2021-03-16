@@ -44,7 +44,7 @@ body {
   grid-template-areas:
     "header header header"
     "menu main aside"
-    "footer footer footer";
+    "footer footer aside";
   grid-gap: 10px;
 }
 
