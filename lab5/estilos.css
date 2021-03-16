@@ -21,7 +21,6 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  width: 100px;
 }
 
 nav a {
@@ -31,6 +30,16 @@ nav a {
   border-bottom: 1px solid #555;
 }
 
+.grupo1 {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+.grupo2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(122, 21, 122);
+}
 /*
 nav ul {
   list-style-type: none;
