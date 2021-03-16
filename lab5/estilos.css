@@ -2,6 +2,32 @@
   font-family: "Barlow Condensed", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
+  box-sizing: border-box;
+}
+
+/*
+    ESTILOS RESPONSIVOS E
+    LAYOUT DA PAGINA COM FLEX E GRID
+  */
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: header;
+}
+
+main {
+  grid-area: header;
+}
+
+aside {
+  grid-area: header;
+}
+
+footer {
+  grid-area: header;
 }
 
 h1 {
