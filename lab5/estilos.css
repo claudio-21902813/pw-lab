@@ -19,7 +19,7 @@ nav {
   display: flex;
   background-color: rgba(156, 206, 179, 0.418);
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: stretch;
 }
 
@@ -30,10 +30,6 @@ nav a {
   border-bottom: 1px solid #555;
 }
 
-.grupo1 {
-  display: flex;
-  flex-direction: row;
-}
 /*
 nav ul {
   list-style-type: none;
