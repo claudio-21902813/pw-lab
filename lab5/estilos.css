@@ -69,7 +69,10 @@ body {
   padding: 10px;
 }
 
-nav > * {
+nav,
+header,
+main,
+footer {
   text-align: center;
   justify-content: center;
 }
