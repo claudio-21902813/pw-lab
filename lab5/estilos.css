@@ -43,9 +43,8 @@ body {
   grid-template-columns: 300px 1fr 200px;
   grid-template-areas:
     "header header header"
-    "menu menu menu"
-    "aside main aside"
-    "footer footer footer";
+    "menu main aside"
+    "menu footer aside";
   grid-gap: 10px;
 }
 
