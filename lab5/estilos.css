@@ -40,11 +40,11 @@ body {
   height: 100vh;
 
   grid-template-rows: 1fr 1fr 50px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 300px 1fr 200px;
   grid-template-areas:
     "header header header"
     "menu main aside"
-    "footer footer aside";
+    "footer footer footer";
   grid-gap: 10px;
 }
 
