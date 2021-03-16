@@ -17,7 +17,8 @@ header {
 nav {
   grid-area: menu;
   display: flex;
-  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 nav ul {
