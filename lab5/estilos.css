@@ -17,7 +17,7 @@ header {
 nav {
   grid-area: menu;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.39);
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
@@ -95,15 +95,15 @@ footer {
   justify-content: center;
 }
 a:link {
-  color: rgb(47, 104, 59);
+  color: rgb(0, 255, 55);
 }
 
 a:visited {
-  color: rgb(28, 0, 128);
+  color: rgb(128, 0, 0);
 }
 
 a:hover {
-  color: rgb(240, 255, 105);
+  color: rgb(229, 255, 0);
 }
 
 a:active {
