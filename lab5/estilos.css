@@ -19,7 +19,7 @@ nav {
   display: flex;
   background-color: rgba(156, 206, 179, 0.418);
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 
 /*
