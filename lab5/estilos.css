@@ -64,6 +64,9 @@ body {
     "header header header"
     "menu main aside"
     "footer footer footer";
+
+  grid-gap: 10px;
+  padding: 10px;
 }
 
 body > * {
