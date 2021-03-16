@@ -40,18 +40,12 @@ body {
   height: 100vh;
 
   grid-template-rows: 50px 1fr;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "header header header"
     "menu main aside"
     "footer footer footer";
   grid-gap: 10px;
-}
-
-main + footer {
-  font-size: 34px;
-  margin: auto;
-  width: 800px;
 }
 
 a:link {
