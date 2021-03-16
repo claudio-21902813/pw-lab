@@ -17,7 +17,7 @@ header {
 nav {
   grid-area: menu;
   display: flex;
-  background-color: rgba(156, 206, 179, 0.418);
+  background-color: rgba(0, 0, 0, 0.4);
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
@@ -26,7 +26,7 @@ nav {
 
 nav a {
   padding: 10px 10px;
-  color: #000;
+  color: rgb(20, 19, 19);
   text-align: center;
   border-bottom: 1px solid #555;
 }
@@ -34,12 +34,10 @@ nav a {
 .grupo1 {
   display: flex;
   flex-direction: column;
-  background-color: red;
 }
 .grupo2 {
   display: flex;
   flex-direction: column;
-  background-color: rgb(122, 21, 122);
 }
 /*
 nav ul {
