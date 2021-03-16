@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/iconNovo.svg" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="description" content="Descricao de uma cidade">
+    <meta name="keywords" content="HTML,Web,Paris">
+    <meta name="author" content="Claudio Caetano - a21902813">
+    <!-- Estilos -->
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(33, 81, 202, 0.73);
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(180, 45, 45, 0.7);
+        }
+
+        body {
+            background-color: #ff5c04d4;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Paris</h1>
+        <figure>
+            <img src="imagens/franca.jpg">
+            <figcaption>a vista de Paris e da sua famosa Torre</figcaption>
+            <details>
+                <summary>Torre Eiffel <b><a href="https://www.paris.fr/" target="_blank">[3]</a></b></summary>
+                <p>A Torre Eiffel é o símbolo de Paris e foi construída para a Exposição
+                    Universal de 1889 e é um dos monumentos mais visitados do mundo.</p>
+            </details>
+        </figure>
+    </header>
+
+    <main>
+
+        <nav>
+            <a href="html5-css.html" id="menuop8"><i class="material-icons"
+                    style="font-size:24px;color:red">computer</i></a>
+            <a href="quizz.html" id="menuop1"><i class="material-icons"
+                    style="font-size:24px;color:red">play_circle_outline</i></a>
+            <a href="comentarios.html" id="menuop2"><i class="material-icons"
+                    style="font-size:24px;color:rgb(58, 82, 59)">comment</i></a>
+            <a href="../index.html" id="menuop3"><i class="material-icons"
+                    style="font-size:24px;color:rgb(0, 68, 255)">folder_open</i></a>
+            <a href="index.html" id="menuop4"><i class="material-icons"
+                    style="font-size:24px;color:rgb(217, 255, 0)">free_breakfast</i></a>
+            <a href="local.html" id="menuop5"><i class="material-icons"
+                    style="font-size:24px;color:rgb(255, 0, 170)">near_me</i></a>
+            <a href="multimedia.html" id="menuop6"><i class="material-icons"
+                    style="font-size:24px;color:rgb(0, 204, 255)">subscriptions</i></a>
+            <a href="info.html" id="menuop7"><i class="material-icons"
+                    style="font-size:24px;color:rgb(47, 0, 255)">new_releases</i></a>
+        </nav>
+
+
+        <section>
+            <h3> HTML e CSS</h3>
+            <p>HTML5 é a última evolução no padrão que define o HTML</p>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>Foi usado?</th>
+                        <th>se sim aonde foi?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hx</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                    <tr>
+                        <td>p</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                    <tr>
+                        <td>a(para links)</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                    <tr>
+                        <td>iframe</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                    <tr>
+                        <td>Table</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                    <tr>
+                        <td>Image,Figure e o FigureCaption</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                    <tr>
+                        <td>SVG</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>nas paginas do Lab 4 e posterior</td>
+                    </tr>
+                    <tr>
+                        <td>Elementos animados e formas geometricas(Circle,Polygon,Rect,Elipse,...)</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>nas paginas do Lab 4 e posterior</td>
+                    </tr>
+                    <tr>
+                        <td>DIV</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">report_problem</i></td>
+                        <td>Prefiro o section do HTML 5</td>
+                    </tr>
+                    <tr>
+                        <td>Center</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>Descontinuado a partir do lab 4</td>
+                    </tr>
+                    <tr>
+                        <td>Elementos semanticos(header,nav...)</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>a partir do lab 4</td>
+                    </tr>
+                    <tr>
+                        <td>Elemento style</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em inline foi usado desde o lab 1 mas a partir do lab 5 existe um ficheiro de estilos
+                            proprio para
+                            todas as paginas
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>BR e HR</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>em todas as paginas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>CSS</h3>
+            <p>Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.)
+                a um documento web</p>
+            <table>
+                <caption>tipos de seletores CSS</caption>
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>foi usado?</th>
+                        <th>Explicação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Universal</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>aplica o estilo a todos os elementos da pagina</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>aplica o estilo do nome do marcador a utilizar</td>
+                    </tr>
+                    <tr>
+                        <td>Classe</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">report_problem</i></td>
+                        <td>aplica o estilo do nome de uma classe a utilizar</td>
+                    </tr>
+                    <tr>
+                        <td>Identificador</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>aplica o estilo consoante o Identificador(muito util em Javascript)</td>
+                    </tr>
+                    <tr>
+                        <td>Atributos</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>aplica o estilo consoante o atributo de um Elemento</td>
+                    </tr>
+                    <tr>
+                        <td>Pseudo-classe</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">report_problem</i></td>
+                        <td>aplica o estilo consoante o estado de um elemento</td>
+                    </tr>
+                    <tr>
+                        <td>Pseudo-elemento</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">report_problem</i></td>
+                        <td>aplica o estilo consoante em partes de elementos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section>
+            <table>
+                <caption>combinadores de seletores CSS</caption>
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>foi usado?</th>
+                        <th>Explicação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seletores descendentes ex: el el2</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>– todos os "el2" que estão "dentro" de um el e foram usados nas paginas principais</td>
+                    </tr>
+                    <tr>
+                        <td>Seletores filhos ex: el > el2</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>– todos os "el2" que estão "logo dentro" de um el e foram usados nas paginas principais</td>
+                    </tr>
+                    <tr>
+                        <td>Seletores adjacentes ex: el ~ el2</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>todos os "el2" que estão colocados depois de um "el" e foram usados nas paginas principais
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Seletores imediatamente adjacentes ex: el + el2</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>todos os "el2" que estão colocados imediatamente depois de um "el" e foram usados nas
+                            paginas principais</td>
+                    </tr>
+                    <tr>
+                        <td>Agrupação ex: el,el2</td>
+                        <td><i class="material-icons" style="font-size:24px;color:red">done</i></td>
+                        <td>os el e el2 ficaram com o mesmo estilo e foram usados nas paginas principais</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <n>Claudio Caetano, <a href="https://www.ulusofona.pt/">Lusofona</a>, a21902813, 2º ano</n>
+        </p>
+    </footer>
+</body>
+
+</html>
