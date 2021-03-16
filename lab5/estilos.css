@@ -18,7 +18,7 @@ nav {
   grid-area: menu;
   display: flex;
   background-color: rgba(156, 206, 179, 0.418);
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /*
@@ -57,8 +57,8 @@ body {
   width: 100vw;
   height: 100vh;
 
-  grid-template-rows: 1fr 200px 1fr;
-  grid-template-columns: 300px 1fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "header header header"
     "menu main aside"
