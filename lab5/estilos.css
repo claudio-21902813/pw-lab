@@ -49,7 +49,7 @@ main {
   grid-area: main;
 }
 
-aside {
+.asi {
   grid-area: aside;
   display: flex;
   flex-direction: column;
