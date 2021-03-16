@@ -20,6 +20,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
 
 nav ul {
@@ -63,7 +64,7 @@ body {
   grid-template-rows: 1fr 1fr 10px;
   grid-template-columns: 100px 1fr 200px;
   grid-template-areas:
-    "menu header header"
+    "header header header"
     "menu main aside"
     "menu footer footer";
   grid-gap: 10px;
