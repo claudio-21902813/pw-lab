@@ -63,7 +63,7 @@ body {
   grid-template-areas:
     "header header header"
     "menu main aside"
-    "footer footer aside";
+    "footer footer footer";
 }
 
 body > * {
