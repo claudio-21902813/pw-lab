@@ -28,7 +28,7 @@ nav a {
   padding: 10px 10px;
   color: rgb(252, 252, 252);
   text-align: center;
-  border-bottom: 1px solid #555;
+  border: 1px solid rgba(204, 5, 5, 0.548);
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -41,20 +41,13 @@ nav a {
   display: flex;
   flex-direction: column;
 }
-/*
-nav ul {
-  list-style-type: none;
-  background-color: #f1f1f1;
-}
 
-nav li a {
-  text-decoration: none;
+/* MOBILE e TABLET */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
-
-nav li a:hover {
-  background-color: #555;
-  color: white;
-}*/
 
 main {
   grid-area: main;
