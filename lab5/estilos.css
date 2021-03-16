@@ -26,9 +26,11 @@ nav {
 
 nav a {
   padding: 10px 10px;
-  color: rgb(20, 19, 19);
+  color: rgb(252, 252, 252);
   text-align: center;
   border-bottom: 1px solid #555;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .grupo1 {
