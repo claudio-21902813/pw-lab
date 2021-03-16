@@ -19,8 +19,9 @@ nav {
   display: flex;
   background-color: rgba(156, 206, 179, 0.418);
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: stretch;
+  height: 600px;
 }
 
 nav a {
