@@ -57,12 +57,12 @@ body {
   width: 100vw;
   height: 100vh;
 
-  grid-template-rows: 1fr 1fr 10px;
+  grid-template-rows: 1fr 200px 1fr;
   grid-template-columns: 300px 1fr 1fr;
   grid-template-areas:
     "header header header"
     "menu main aside"
-    "menu footer footer";
+    "footer footer aside";
   grid-gap: 10px;
 }
 
