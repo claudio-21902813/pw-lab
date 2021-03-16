@@ -64,8 +64,8 @@ body {
   grid-template-columns: 1fr 1fr 200px;
   grid-template-areas:
     "header header header"
-    "menu main aside"
-    "footer footer footer";
+    "menu menu menu"
+    "footer main aside";
   grid-gap: 10px;
 }
 
