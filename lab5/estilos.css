@@ -17,9 +17,11 @@ header {
 nav {
   grid-area: menu;
   display: flex;
-  background-color: black;
+  background-color: rgba(156, 206, 179, 0.418);
+  flex-direction: row;
 }
 
+/*
 nav ul {
   list-style-type: none;
   background-color: #f1f1f1;
@@ -32,7 +34,7 @@ nav li a {
 nav li a:hover {
   background-color: #555;
   color: white;
-}
+}*/
 
 main {
   grid-area: main;
