@@ -24,6 +24,12 @@ initial-scale=0.4">
     justify-content: space-around;
   }
 
+  .galeria2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
   #img1 {
     transition: width 2s;
   }
@@ -46,6 +52,33 @@ initial-scale=0.4">
 
   #img3:hover {
     width: 400px;
+  }
+
+  #img4 {
+    transition: width 2s, height 4s;
+  }
+
+  #img4:hover {
+    width: 400px;
+    height: 200px;
+  }
+
+  #img5 {
+    transition: width 2s, height 4s;
+  }
+
+  #img5:hover {
+    width: 400px;
+    height: 200px;
+  }
+
+  #img6 {
+    transition: width 2s, height 4s;
+  }
+
+  #img6:hover {
+    width: 400px;
+    height: 200px;
   }
 </style>
 
@@ -220,13 +253,13 @@ initial-scale=0.4">
 
       <div class="galeria2">
         <figure>
-          <img src="imagens/galeria2.jpg">
+          <img id="img4" src="imagens/galeria2.jpg">
         </figure>
         <figure>
-          <img src="imagens/galeria2.jpg">
+          <img id="img5" src="imagens/galeria2.jpg">
         </figure>
         <figure>
-          <img src="imagens/galeria2.jpg">
+          <img id="img6" src="imagens/galeria2.jpg">
         </figure>
       </div>
 
