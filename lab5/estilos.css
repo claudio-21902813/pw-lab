@@ -38,10 +38,8 @@ footer {
   grid-area: footer;
 }
 
-/* PARA MOBILE */
 @media (max-width: 600px) {
   body {
-    font-size: 2vw;
     background: rgb(58, 48, 34, 0.58);
     display: grid;
     width: 100vw;
@@ -57,45 +55,8 @@ footer {
     grid-gap: 15px;
     padding: 20px;
   }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between;
-    height: 55%;
-    background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #bd5959;
-  }
-  nav li a {
-    display: block;
-    color: rgb(168, 136, 136);
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-
-  /* Change the link color on hover */
-  nav li a:hover {
-    background-color: #555;
-    color: white;
-  }
-  figure {
-    background-color: red;
-    width: 100%;
-  }
-
-  svg {
-    width: 100%;
-  }
 }
 
-/* PARA pc */
 @media (min-width: 601px) {
   body {
     background: rgb(58, 48, 34, 0.58);
