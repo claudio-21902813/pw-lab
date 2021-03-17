@@ -38,6 +38,7 @@ footer {
   grid-area: footer;
 }
 
+/* PARA MOBILE */
 @media (max-width: 600px) {
   body {
     background: rgb(58, 48, 34, 0.58);
@@ -45,7 +46,7 @@ footer {
     width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 9vw 7vw 1fr 7vw 7vw;
+    grid-template-rows: 1fr 1fr 1fr 7vw 7vw;
     grid-template-areas:
       "header"
       "menu"
@@ -55,8 +56,37 @@ footer {
     grid-gap: 15px;
     padding: 20px;
   }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 55%;
+    background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #bd5959;
+  }
+  nav li a {
+    display: block;
+    color: rgb(168, 136, 136);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color on hover */
+  nav li a:hover {
+    background-color: #555;
+    color: white;
+  }
 }
 
+/* PARA pc */
 @media (min-width: 601px) {
   body {
     background: rgb(58, 48, 34, 0.58);
