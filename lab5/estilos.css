@@ -83,6 +83,7 @@ footer {
   nav ul {
     list-style-type: none;
     background-color: red;
+    border: 1px solid #555;
   }
 
   nav li a {
