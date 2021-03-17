@@ -85,6 +85,14 @@ footer {
     background-color: #555;
     color: white;
   }
+  figure {
+    background-color: red;
+    width: 100%;
+  }
+
+  svg {
+    width: 100%;
+  }
 }
 
 /* PARA pc */
@@ -130,14 +138,6 @@ footer {
   nav li a:hover {
     background-color: #555;
     color: white;
-  }
-
-  figure {
-    width: 100%;
-  }
-
-  svg {
-    width: 100%;
   }
 }
 
