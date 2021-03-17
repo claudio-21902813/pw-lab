@@ -89,6 +89,7 @@ footer {
 /* PARA pc */
 @media (min-width: 601px) {
   body {
+    font-size: 4vw;
     background: rgb(58, 48, 34, 0.58);
     display: grid;
     width: 100vw;
