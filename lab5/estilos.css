@@ -86,6 +86,11 @@ footer {
     align-items: stretch;
     background-color: red;
   }
+
+  nav li a {
+    display: block;
+    color: green;
+  }
 }
 
 h1 {
