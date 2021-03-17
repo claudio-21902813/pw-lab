@@ -31,7 +31,7 @@ menu {
 main {
   grid-area: main;
 }
-aside {
+.asi {
   grid-area: aside;
 }
 footer {
@@ -69,6 +69,15 @@ footer {
       "footer footer footer";
     grid-gap: 1vw;
     padding: 20px;
+  }
+
+  .grupo1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grupo2 {
+    display: flex;
+    flex-direction: column;
   }
 }
 
