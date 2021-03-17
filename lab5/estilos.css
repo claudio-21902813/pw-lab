@@ -78,7 +78,7 @@ footer {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-    height: 55%;
+    height: 800px;
     background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
   }
 
