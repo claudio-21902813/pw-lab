@@ -87,7 +87,7 @@ footer {
     background-color: red;
   }
 
-  nav li a {
+  nav > li a {
     display: block;
     color: green;
   }
