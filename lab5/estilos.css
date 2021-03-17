@@ -80,10 +80,6 @@ footer {
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   }
 
-  .principalMenu {
-    display: flex;
-    justify-content: space-evenly;
-  }
   nav ul {
     list-style-type: none;
     margin: 0;
