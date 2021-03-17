@@ -76,6 +76,7 @@ footer {
   .grupo1 {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
   }
   .grupo2 {
     display: flex;
