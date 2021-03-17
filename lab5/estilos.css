@@ -73,13 +73,6 @@ footer {
     padding: 20px;
   }
 
-  nav ul {
-    list-style-type: none;
-    /*background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);*/
-    border: 1px solid #555;
-    justify-content: center;
-  }
-
   .menuu {
     display: flex;
     flex-direction: column;
@@ -87,11 +80,8 @@ footer {
     background-color: red;
   }
 
-  .menuu > li a {
-    display: block;
-    color: green;
-    padding: 8px 16px;
-    text-decoration: none;
+  nav ul li a {
+    background-color: gold;
   }
 }
 
