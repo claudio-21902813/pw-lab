@@ -59,7 +59,7 @@ footer {
 
 @media (min-width: 601px) {
   body {
-    background: rgb(228, 219, 219);
+    background: rgb(58, 48, 34, 0.58);
     display: grid;
     width: 100vw;
     height: 100vh;
