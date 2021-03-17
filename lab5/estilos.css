@@ -63,8 +63,8 @@ footer {
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 9vw 1fr 7vw;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas:
       "header header header"
       "menu   main   aside"
