@@ -77,15 +77,18 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: red;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   }
 
   nav ul {
     list-style-type: none;
   }
   nav ul li a {
-    background-color: gold;
     display: block;
+  }
+  nav ul li a:hover {
+    background-color: #555;
+    color: white;
   }
 }
 
