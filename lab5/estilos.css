@@ -73,16 +73,6 @@ footer {
     padding: 20px;
   }
 
-  .grupo1 {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .grupo2 {
-    display: flex;
-    flex-direction: column;
-  }
-
   nav ul {
     list-style-type: none;
     /*background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);*/
@@ -91,6 +81,9 @@ footer {
   }
 
   .menuu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background-color: red;
   }
   nav div li a:hover {
