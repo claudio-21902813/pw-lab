@@ -18,7 +18,7 @@ initial-scale=0.4">
 </head>
 
 <style>
-  [class^="galeria"] {
+  .galeria1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -26,7 +26,27 @@ initial-scale=0.4">
   }
 
   div.galeria1:hover {
-    width: 300px;
+    width: 50px;
+  }
+
+  .galeria2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: width 5s height 4s;
+  }
+
+  div.galeria2:hover {
+    width: 33px;
+    height: 66px;
+  }
+
+  .galeria3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: width 2s;
+    transition-timing-function: ease-in;
   }
 </style>
 
