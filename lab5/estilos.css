@@ -10,7 +10,10 @@
     LAYOUT DA PAGINA COM FLEX E GRID
   */
 
-body > * {
+header,
+main,
+footer,
+aside > * {
   text-align: center;
   font-size: 3vw;
   display: flex;
