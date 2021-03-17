@@ -86,6 +86,12 @@ footer {
     list-style-type: none;
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     border: 1px solid #555;
+    justify-content: center;
+  }
+
+  nav li a:hover {
+    background-color: #555;
+    color: white;
   }
 
   nav li a {
