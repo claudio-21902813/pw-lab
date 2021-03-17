@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: rgb(112, 31, 31);
-}
-
 /*
     ESTILOS RESPONSIVOS E
     LAYOUT DA PAGINA COM FLEX E GRID
@@ -44,6 +40,7 @@ footer {
 
 @media (max-width: 600px) {
   body {
+    background: rgb(112, 31, 31);
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -62,6 +59,7 @@ footer {
 
 @media (min-width: 601px) {
   body {
+    background: rgb(228, 219, 219);
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -86,7 +84,7 @@ footer {
 
   nav ul {
     list-style-type: none;
-    background-color: red;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     border: 1px solid #555;
   }
 
