@@ -64,7 +64,7 @@ footer {
     width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15vw 1fr 9vw;
+    grid-template-rows: 15vw 3fr 9vw;
     grid-template-areas:
       "header header header"
       "menu   main   aside"
@@ -80,6 +80,10 @@ footer {
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   }
 
+  .principalMenu {
+    display: flex;
+    justify-content: space-evenly;
+  }
   nav ul {
     list-style-type: none;
     margin: 0;
