@@ -98,14 +98,6 @@ footer {
     background-color: #555;
     color: white;
   }
-  .grupo1 {
-    display: flex;
-    justify-content: column;
-  }
-  .grupo2 {
-    display: flex;
-    justify-content: column;
-  }
 }
 
 h1 {
