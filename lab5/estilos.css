@@ -92,7 +92,7 @@ footer {
   .menuu {
     background-color: red;
   }
-  nav li a:hover {
+  nav div li a:hover {
     background-color: #555;
     color: white;
   }
