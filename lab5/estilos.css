@@ -77,11 +77,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    width: 200px;
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   }
 
   nav ul {
     list-style-type: none;
+    width: 200px;
   }
   nav ul li a {
     display: block;
