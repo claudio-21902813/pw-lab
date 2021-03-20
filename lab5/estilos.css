@@ -41,7 +41,7 @@ footer {
 /* MOBILE */
 @media (max-width: 600px) {
   body {
-    background: rgb(58, 48, 34, 0.58);
+    background: rgb(0, 114, 181);
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -69,7 +69,7 @@ footer {
 /* PC */
 @media (min-width: 601px) {
   body {
-    background: rgba(255, 252, 228, 0.89);
+    background: rgb(255, 111, 97);
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -89,7 +89,7 @@ footer {
     align-items: stretch;
     justify-content: space-between;
     height: 800px;
-    background: linear-gradient(to bottom, #1a98bea2 0%, #807e0e96 100%);
+    background: linear-gradient(to bottom, #1a98bed5 0%, #dbdf16e5 100%);
   }
 
   nav ul {
