@@ -91,8 +91,6 @@ footer {
       "footer footer footer";
     grid-gap: 1vw;
     padding: 20px;
-    animation-name: example;
-    animation-duration: 4s;
   }
 
   nav {
@@ -102,6 +100,8 @@ footer {
     justify-content: space-between;
     height: 800px;
     background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
+    animation-name: example;
+    animation-duration: 4s;
   }
 
   nav ul {
