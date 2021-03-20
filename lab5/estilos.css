@@ -90,7 +90,7 @@ footer {
     justify-content: space-between;
     height: 800px;
     background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
-    animation: animacao_nav 10s;
+    animation: animacao_nav 5s;
     animation-fill-mode: forwards;
   }
 
@@ -99,8 +99,8 @@ footer {
       top: 0px;
     }
     left {
-      top: 200px;
-      background-color: blue;
+      top: 900px;
+      background-color: rgb(0, 0, 0);
     }
   }
 
