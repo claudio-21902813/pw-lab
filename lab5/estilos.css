@@ -81,10 +81,12 @@ footer {
       "footer footer footer";
     grid-gap: 1vw;
     padding: 20px;
+  }
+
+  .grupo1 {
     animation: animacao_nav 5s;
     animation-fill-mode: forwards;
   }
-
   nav {
     display: flex;
     flex-direction: column;
