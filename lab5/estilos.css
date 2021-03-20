@@ -67,6 +67,16 @@ footer {
 }
 
 /* PC */
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
 @media (min-width: 601px) {
   body {
     background: rgba(255, 252, 228, 0.89);
@@ -81,6 +91,8 @@ footer {
       "footer footer footer";
     grid-gap: 1vw;
     padding: 20px;
+    animation-name: example;
+    animation-duration: 4s;
   }
 
   nav {
