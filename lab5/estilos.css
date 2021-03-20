@@ -67,16 +67,6 @@ footer {
 }
 
 /* PC */
-
-@keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
-}
-
 @media (min-width: 601px) {
   body {
     background: rgba(255, 252, 228, 0.89);
@@ -93,6 +83,34 @@ footer {
     padding: 20px;
   }
 
+  @keyframes example {
+    0% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: yellow;
+      left: 200px;
+      top: 0px;
+    }
+    50% {
+      background-color: blue;
+      left: 200px;
+      top: 200px;
+    }
+    75% {
+      background-color: green;
+      left: 0px;
+      top: 200px;
+    }
+    100% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+  }
+
   nav {
     display: flex;
     flex-direction: column;
@@ -100,6 +118,7 @@ footer {
     justify-content: space-between;
     height: 800px;
     background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
+    position: relative;
     animation-name: example;
     animation-duration: 4s;
   }
