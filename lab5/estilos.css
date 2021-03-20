@@ -81,6 +81,8 @@ footer {
       "footer footer footer";
     grid-gap: 1vw;
     padding: 20px;
+    animation: animacao_nav 5s;
+    animation-fill-mode: forwards;
   }
 
   nav {
@@ -90,8 +92,6 @@ footer {
     justify-content: space-between;
     height: 800px;
     background: linear-gradient(to bottom, #01151ba2 0%, #f8181896 100%);
-    animation: animacao_nav 5s;
-    animation-fill-mode: forwards;
   }
 
   @keyframes animacao_nav {
